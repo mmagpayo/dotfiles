@@ -1,0 +1,18 @@
+hardstatus on  
+hardstatus alwayslastline  
+startup_message off  
+termcapinfo xterm ti@:te@  
+#defscrollback 5000
+##hardstatus string "%{= kG}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a "
+hardstatus string "%{= w}%-w%{= Bk} %n %t %{-}%+w %-="
+#
+screen 0
+screen 1
+screen 2
+screen 3
+screen 4
+screen 5
+screen 6
+screen 7
+screen 8
+screen -t dnetc 9 /home/mmagpayo/dnetc/dnetc
