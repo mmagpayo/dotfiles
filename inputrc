@@ -1,0 +1,8 @@
+# search forward and backward thru command history, with partial command already entered
+# ie, cd / + up arrow finds cd /var/tmp, cd /etc, etc
+# found at https://coderwall.com/p/oqtj8w
+
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+set show-all-if-ambiguous on
+set completion-ignore-case on
