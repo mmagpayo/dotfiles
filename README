@@ -5,3 +5,6 @@ So far they include files for:
 Bash
 Screen
 Vim
+Zsh
+Input -> which is mostly for history searching
+Git
